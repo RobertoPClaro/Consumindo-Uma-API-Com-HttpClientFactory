@@ -6,7 +6,7 @@ namespace CategoriasMvc.Services
 {
     public class CategoriaService : ICategoriaService
     {
-        private const string apiEndpoint = "/api/1/categorias";
+        private const string apiEndpoint = "/api/1/categorias/";
 
         private readonly JsonSerializerOptions _options;
         private readonly IHttpClientFactory _clientFactory;
@@ -15,7 +15,7 @@ namespace CategoriasMvc.Services
         private IEnumerable<CategoriaViewModel> categoriasVM = new List<CategoriaViewModel>();
         public CategoriaService(IHttpClientFactory clienteFactory)
         {
-            _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true};
+            _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             _clientFactory = clienteFactory;
         }
 
@@ -83,8 +83,7 @@ namespace CategoriasMvc.Services
         public async Task<bool> AtualizaCategoria(int id, CategoriaViewModel categoriaVM)
         {
             var client = _clientFactory.CreateClient("CategoriasApi");
-
-            using (var response = await client.PutAsJsonAsync(apiEndpoint + id, categoriasVM))
+            using (var response = await client.PutAsJsonAsync(apiEndpoint + id, categoriaVM))
             {
                 if (response.IsSuccessStatusCode)
                 {
@@ -94,8 +93,8 @@ namespace CategoriasMvc.Services
                 {
                     return false;
                 }
-            }
 
+            }
         }
         public async Task<bool> DeletaCategoria(int id)
         {
@@ -106,7 +105,7 @@ namespace CategoriasMvc.Services
                 if (response.IsSuccessStatusCode)
                 {
                     return true;
-                }      
+                }
             }
             return false;
         }

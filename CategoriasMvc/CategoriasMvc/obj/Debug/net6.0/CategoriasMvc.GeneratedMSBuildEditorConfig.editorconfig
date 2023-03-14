@@ -15,6 +15,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\rober\OneDrive\Área de Trabalho\‍‍\CURSO - ASP .NET CORE MACORATTI\Consumindo uma API com HttpClientFactory\CategoriasMvc\CategoriasMvc\CategoriasMvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/rober/OneDrive/Área de Trabalho/‍‍/CURSO - ASP .NET CORE MACORATTI/Consumindo uma API com HttpClientFactory/CategoriasMvc/CategoriasMvc/CategoriasMvc/Views/Categorias/AtualizarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xBdHVhbGl6YXJDYXRlZ29yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rober/OneDrive/Área de Trabalho/‍‍/CURSO - ASP .NET CORE MACORATTI/Consumindo uma API com HttpClientFactory/CategoriasMvc/CategoriasMvc/CategoriasMvc/Views/Categorias/CriarNovaCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmlhck5vdmFDYXRlZ29yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rober/OneDrive/Área de Trabalho/‍‍/CURSO - ASP .NET CORE MACORATTI/Consumindo uma API com HttpClientFactory/CategoriasMvc/CategoriasMvc/CategoriasMvc/Views/Categorias/DeletarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGFyQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rober/OneDrive/Área de Trabalho/‍‍/CURSO - ASP .NET CORE MACORATTI/Consumindo uma API com HttpClientFactory/CategoriasMvc/CategoriasMvc/CategoriasMvc/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rober/OneDrive/Área de Trabalho/‍‍/CURSO - ASP .NET CORE MACORATTI/Consumindo uma API com HttpClientFactory/CategoriasMvc/CategoriasMvc/CategoriasMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
